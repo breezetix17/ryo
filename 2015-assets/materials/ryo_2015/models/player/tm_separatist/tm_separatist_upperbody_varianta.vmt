@@ -1,0 +1,12 @@
+"patch"
+{
+	"include" "materials/ryo_2015/models/player/tm_separatist/tm_separatist_shared.vmt"
+	"insert"
+	{	
+	"$baseTexture" "ryo_2015/models/player/tm_separatist/tm_separatist_upperbody_varianta"
+	"$bumpmap" "ryo_2015/models/player/tm_separatist/tm_separatist_upperbody_varianta_normal"
+
+	"$phongexponenttexture" "ryo_2015/models/player/tm_separatist/tm_separatist_upperbody_varianta_exponent"
+	"$rimmask" "1"
+	}	
+}

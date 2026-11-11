@@ -1,0 +1,13 @@
+"patch"
+{
+	"include" "materials/ryo_2015/models/player/tm_professional/tm_professional_shared.vmt"
+	"insert"
+	{	
+	"$baseTexture" "ryo_2015/models/player/tm_professional/tm_professional_head_variantb"
+	"$bumpmap" "ryo_2015/models/player/tm_professional/tm_professional_head_variantb_normal"
+	
+//	"$phongexponenttexture" "models\player\tm_professional\tm_professional_Head_variantB_exponent"
+	"$rimmask" "1"
+"$nodecal" 1
+	}	
+}

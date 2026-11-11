@@ -1,0 +1,13 @@
+"patch"
+{
+	"include" "materials/ryo_2015/models/player/ct_gsg9/ctm_gsg9_shared.vmt"
+	"insert"
+	{	
+	"$baseTexture" "ryo_2015/models/player/ct_gsg9/ctm_gsg9_lowerbody_varianta"
+	"$bumpmap" "ryo_2015/models/player/ct_gsg9/ctm_gsg9_lowerbody_normal"
+	
+	"$phongexponenttexture" "ryo_2015/models/player/ct_gsg9/ctm_gsg9_lowerbody_exponent"
+	"$rimmask" "1"
+	
+	}	
+}

@@ -1,0 +1,10 @@
+"patch"
+{
+	"include" "materials/ryo_2015/models/player/tm_phoenix/tm_phoenix_shared.vmt"
+	"insert"
+	{	
+	"$baseTexture" "ryo_2015/models/player/tm_phoenix/tm_phoenix_lowerbody_variantc"
+	"$bumpmap" "ryo_2015/models/player/tm_phoenix/tm_phoenix_lowerbody_normal"
+
+	}	
+}

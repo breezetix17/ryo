@@ -1,0 +1,13 @@
+"patch"
+{
+	"include" "materials/ryo_2015/models/player/tm_pirate/tm_pirate_shared.vmt"
+	"insert"
+	{	
+	"$baseTexture" "ryo_2015/models/player/tm_pirate/tm_pirate_upperbody_variantb"
+	"$bumpmap" "ryo_2015/models/player/tm_pirate/tm_pirate_upperbody_normal"
+	"$phongalbedotint" "1"
+	"$phongalbedoboost" "400"		
+	"$phongexponenttexture" "ryo_2015/models/player/tm_pirate/tm_pirate_upperbody_exponent"
+	"$rimmask" "1"
+	}	
+}

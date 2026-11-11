@@ -1,0 +1,5 @@
+unlitgeneric
+{
+	$translucent 1
+	$basetexture ryo_2015/models/weapons/shared/scope/scope_lens_dirt
+}

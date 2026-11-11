@@ -1,0 +1,14 @@
+"patch"
+{
+	"include" "materials/ryo_2015/models/player/ct_idf/ctm_idf_shared.vmt"
+	"insert"
+	{	
+	"$baseTexture" "ryo_2015/models/player/ct_idf/ctm_idf_head_variantf"
+	"$bumpmap" "ryo_2015/models/player/ct_idf/ctm_idf_head_variantf_normal"
+		
+	"$phongexponenttexture" "ryo_2015/models/player/ct_idf/ctm_idf_head_variantb_exponent"
+	"$rimmask" "1"
+	
+"$nodecal" 1
+	}	
+}

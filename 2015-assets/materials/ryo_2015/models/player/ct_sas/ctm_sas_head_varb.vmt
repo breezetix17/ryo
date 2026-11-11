@@ -1,0 +1,13 @@
+"patch"
+{
+	"include" "materials/ryo_2015/models/player/ct_sas/ctm_sas_shared.vmt"
+	"insert"
+	{	
+	"$baseTexture" "ryo_2015/models/player/ct_sas/ctm_sas_head_varb"
+	"$bumpmap" "ryo_2015/models/player/ct_sas/ctm_sas_head_normal"
+	
+	"$phongexponenttexture" "ryo_2015/models/player/ct_sas/ctm_sas_head_exponent"
+	"$rimmask" "1"
+"$nodecal" 1
+	}	
+}

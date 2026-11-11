@@ -1,0 +1,13 @@
+"patch"
+{
+	"include" "materials/ryo_2015/models/player/tm_leet/tm_leet_shared.vmt"
+	"insert"
+	{	
+	"$baseTexture" "ryo_2015/models/player/tm_leet/tm_elite_head_varianta"
+	"$bumpmap" "ryo_2015/models/player/tm_leet/tm_elite_head_varianta_normal"
+				
+	"$phongexponenttexture" "ryo_2015/models/player/tm_leet/tm_elite_head_varianta_exponent"
+	"$rimlight" "0"
+"$nodecal" 1
+	}	
+}

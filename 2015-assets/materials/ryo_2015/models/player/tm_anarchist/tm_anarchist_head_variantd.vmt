@@ -1,0 +1,11 @@
+"patch"
+{
+	"include" "materials/ryo_2015/models/player/tm_anarchist/tm_anarchist_shared.vmt"
+	"insert"
+	{	
+	"$baseTexture" "ryo_2015/models/player/tm_anarchist/tm_anarchist_head_variantd"
+	"$bumpmap" "ryo_2015/models/player/tm_anarchist/tm_anarchist_head_normal"
+	"$rimlight" "1"
+"$nodecal" 1
+	}	
+}

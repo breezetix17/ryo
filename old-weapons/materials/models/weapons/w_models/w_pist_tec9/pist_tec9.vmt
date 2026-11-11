@@ -1,0 +1,22 @@
+VertexLitGeneric
+{
+	$baseTexture "models\weapons\w_models\w_pist_tec9\pist_tec9"
+	$phong 1
+	$phongboost ".35"
+	$phongalbedoboost 95
+	$phongfresnelranges "[.8 .8 1]"
+	$phongexponenttexture "models\weapons\w_models\w_pist_tec9\pist_tec9_ref"
+	$basemapalphaphongmask 1
+	$envmap env_cubemap
+	$envmapfresnel 1
+	$envmapFresnelMinMaxExp "[0 5 .4]"
+	$envmaptint "[.01 .01 .01]"
+	$phongalbedotint 1
+	
+	GPU<2
+	{
+		"$phong"		"0"
+		"$envmap" 		""
+		"$envmaptint" 	"[0 0 0]"
+	}
+}

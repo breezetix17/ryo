@@ -1,0 +1,14 @@
+vertexlitgeneric
+{
+	$basetexture models\weapons\shared\holsterstrap\holsterstrap
+	$phong 1
+	$phongexponent 60
+	$basemapalphaphongmask 1
+
+	GPU<2
+	{
+		"$phong"		"0"
+		"$envmap" 	""
+		"$envmaptint" 	"[0 0 0]"
+	}
+}

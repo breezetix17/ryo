@@ -1,0 +1,12 @@
+"patch"
+{
+	"include" "materials/ryo_2015/models/player/tm_professional/tm_professional_shared.vmt"
+	"insert"
+	{	
+	"$baseTexture" "ryo_2015/models/player/tm_professional/tm_professional_upperbody_var2"
+	"$bumpmap" "ryo_2015/models/player/tm_professional/tm_professional_upperbody_normal"
+
+	"$phongexponenttexture" "ryo_2015/models/player/tm_professional/tm_professional_upperbody_exponent"
+	"$rimmask" "1"
+	}	
+}

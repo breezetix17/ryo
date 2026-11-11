@@ -1,0 +1,32 @@
+VertexLitGeneric
+{
+	$basetexture	"models\weapons\stattrack\cut_digit_d"
+	$alphatest		"1"
+	$bumpmap		"models\weapons\stattrack\cut_digit_n"
+	$envmap			"env_cubemap"
+	$envmaptint		"[0.5 0.5 0.5]"
+	
+	GPU<2
+	{
+		"$phong"		"0"
+		"$envmap" 	""
+		"$envmaptint" 	"[0 0 0]"
+	}
+	Proxies
+	{
+		StatTrakDigitForModelWeaponPreview
+		{
+			resultVar	$frame
+			trimzeros		1
+			displayDigit		1
+			cycleDigitsWhenNoScore	0
+		}
+		StatTrakDigitForModelWeaponPreview
+		{
+			resultVar	$bumpframe
+			trimzeros		1
+			displayDigit		1
+			cycleDigitsWhenNoScore	0
+		}
+	}
+}

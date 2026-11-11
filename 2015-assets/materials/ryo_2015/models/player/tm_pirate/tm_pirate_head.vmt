@@ -1,0 +1,13 @@
+"patch"
+{
+	"include" "materials/ryo_2015/models/player/tm_pirate/tm_pirate_shared.vmt"
+	"insert"
+	{	
+	"$baseTexture" "ryo_2015/models/player/tm_pirate/tm_pirate_head"
+	"$bumpmap" "ryo_2015/models/player/tm_pirate/tm_pirate_head_normal"
+		
+	"$phongexponenttexture" "ryo_2015/models/player/tm_pirate/tm_pirate_head_exponent"
+	"$rimmask" "1"
+"$nodecal" 1
+	}	
+}

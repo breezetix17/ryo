@@ -1,0 +1,15 @@
+vertexlitgeneric
+{
+	$basetexture "models\weapons\shared\paracord\paracord01"
+	"$bumpmap"                   "models\weapons\shared\paracord\paracord01_normal"
+	"$phong"                     "1"
+	"$phongboost"                "0.33"
+	"$phongexponent"             "20"
+	
+	GPU<2
+	{
+		"$phong"		"0"
+		"$envmap" 	""
+		"$envmaptint" 	"[0 0 0]"
+	}
+}

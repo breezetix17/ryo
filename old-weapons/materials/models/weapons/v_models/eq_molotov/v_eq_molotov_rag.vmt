@@ -1,0 +1,19 @@
+VertexLitGeneric
+{
+	$baseTexture "models\weapons\v_models\eq_molotov/v_eq_molotov_bottle"
+
+	$bumpmap "models\weapons\v_models\eq_molotov/v_eq_molotov_bottle_normal"
+	$phong 1
+	$phongBoost 4
+	$phongExponent 1
+	$phongTint "[1.6 1.1 1.0]"
+	$phongFresnelRanges "[0 .1 1]"
+	$nocull 1
+	
+	GPU<2
+	{
+		"$phong"		"0"
+		"$envmap" 	""
+		"$envmaptint" 	"[0 0 0]"
+	}
+}
